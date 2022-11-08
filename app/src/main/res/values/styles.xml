@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="mainbutton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:backgroundTint">@color/teal_700</item>
+    </style>
+
+<!--    <style name="BottomNavigation">-->
+<!--        <item name="itemIconTint">@color/bottomselector</item>-->
+<!--        <item name="android:background">@color/white</item>-->
+<!--        <item name="itemTextColor">@color/bottomselector</item>-->
+<!--    </style>-->
+
+</resources>
