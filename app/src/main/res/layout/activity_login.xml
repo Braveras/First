@@ -5,9 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/purple_200"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:id="@+id/fondito">
 
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitStart"
+        android:id="@+id/girl" />
+    
     <ImageView
         android:id="@+id/tree"
         android:layout_width="100dp"
@@ -81,7 +88,7 @@
         app:layout_constraintEnd_toStartOf="@id/guideline2"
         app:layout_constraintStart_toEndOf="@id/login"
         app:layout_constraintTop_toTopOf="@id/login"
-        style="@style/mainbutton">
+        style="@style/buttonoutlined">
 
     </Button>
 
