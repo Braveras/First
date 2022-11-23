@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Segundo DAM/Interfaces (Ernesto)/FirstClone/app/src/main/res/layout-land/activity_login.xml" value="0.22" />
         <entry key="..\:/Segundo DAM/Interfaces (Ernesto)/FirstClone/app/src/main/res/layout/activity_login.xml" value="0.17831813576494426" />
         <entry key="..\:/Segundo DAM/Interfaces (Ernesto)/FirstClone/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Segundo DAM/Interfaces (Ernesto)/FirstClone/app/src/main/res/layout/activity_main_bn.xml" value="0.18958333333333333" />
         <entry key="..\:/Segundo DAM/Interfaces (Ernesto)/FirstClone/app/src/main/res/layout/activity_signup.xml" value="0.17831813576494426" />
+        <entry key="..\:/Segundo DAM/Interfaces (Ernesto)/FirstClone/app/src/main/res/menu/menu_appbar.xml" value="0.33" />
         <entry key="..\:/Segundo DAM/Interfaces (Ernesto)/FirstClone/app/src/main/res/menu/menu_context.xml" value="0.365625" />
         <entry key="..\:/Segundo DAM/Interfaces (Ernesto)/fundamentals/app/src/main/res/drawable/gradient.xml" value="0.196" />
         <entry key="..\:/Segundo DAM/Interfaces (Ernesto)/fundamentals/app/src/main/res/layout/activity_login.xml" value="0.18802083333333333" />

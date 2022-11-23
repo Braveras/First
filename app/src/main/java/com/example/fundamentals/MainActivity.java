@@ -4,8 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.ContextMenu;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
@@ -29,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         mycontext.getSettings().setBuiltInZoomControls(true);
         mycontext.loadUrl("https://thispersondoesnotexist.com");
 
-        SwipeRefreshLayout swipeLayout = findViewById(R.id.swipey);
+        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipey);
         swipeLayout.setOnRefreshListener(mOnRefreshListener);
     }
 
@@ -82,5 +84,40 @@ public class MainActivity extends AppCompatActivity {
                 return false;
         }
 
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_appbar, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        if (id == R.id.item1) {
+//            showAlertDialogButtonClicked(Main.this);
+            Toast toast = Toast.makeText(this, "Infecting", Toast.LENGTH_LONG);
+            toast.show();
+        }
+        if (id == R.id.item2) {
+            Toast toast = Toast.makeText(this, "Fixing", Toast.LENGTH_LONG);
+            toast.show();
+        }
+
+        if (id == R.id.item3) {
+            Intent intent = new Intent(MainActivity.this, MainBab.class);
+            startActivity(intent);
+        }
+
+        if (id == R.id.item4) {
+            Intent intent = new Intent(this, MainBn.class);
+            startActivity(intent);
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }
