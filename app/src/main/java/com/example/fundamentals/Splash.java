@@ -37,19 +37,6 @@ public class Splash extends AppCompatActivity {
         s.addAnimation(fadeout);
         logo.startAnimation(s);
 
-        // Cargar fondo
-        ImageView fondo = findViewById(R.id.splashBg);
-
-        Glide.with(this)
-                .load("https://w0.peakpx.com/wallpaper/918/398/HD-wallpaper-red-splosh-bertil-bright-full-fun-funny-mistake-oops-organic-paint-screen-shape-splash-water-thumbnail.jpg")
-//                .load(R.drawable.girl)
-                .transition(DrawableTransitionOptions.withCrossFade(100))
-                .centerCrop()
-//                .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .placeholder(new ColorDrawable(this.getResources().getColor(R.color.teal_200)))
-//                .circleCrop()
-                .into(fondo);
-
     }
 
     private void openApp() {
@@ -61,6 +48,8 @@ public class Splash extends AppCompatActivity {
             public void run() {
                 Intent intent = new Intent(Splash
                         .this, LoginActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
             }
         }, 1500);
