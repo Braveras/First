@@ -1,13 +1,10 @@
 # This is my Splash
 
-![82cd55d62e7a0cfcbf7a3feaadaf2b16-_online-video-cutter com_](https://user-images.githubusercontent.com/36737950/203817695-95c7738f-b148-4913-944c-6cf000f6bf3d.gif)
-
-https://user-images.githubusercontent.com/36737950/203818045-a2d20f06-e41a-4a3a-9213-113161026d87.mp4
-
+![82cd55d62e7a0cfcbf7a3feaadaf2b16 (online-video-cutter com)](https://user-images.githubusercontent.com/36737950/203818458-09b51c61-9d4f-46ee-8381-61cae3bf5edb.gif)
 
 # This is my LoginActivity
 
-![59b1dee25f562705a1882ff7e4e0e65e](https://user-images.githubusercontent.com/36737950/203817912-4135d534-c0e4-4b32-be31-44072107b491.gif)
+![59b1dee25f562705a1882ff7e4e0e65e (1)](https://user-images.githubusercontent.com/36737950/203818426-ab581b7b-d3f3-4cae-a863-ad35538cbeba.gif)
 
 # This is my ActionBar
 
