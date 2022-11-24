@@ -65,6 +65,10 @@ public class LoginActivity extends AppCompatActivity {
 //                .placeholder(new ColorDrawable(this.getResources().getColor(R.color.fucsia_200)))
                 .circleCrop()
                 .into(logito);
+
+        Animation floating = AnimationUtils.loadAnimation(this, R.anim.smooth_float);
+        logito.startAnimation(floating);
+
     }
 
     // Method for Signup text
