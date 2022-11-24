@@ -15,4 +15,4 @@ With buttons too =)
 ![ActionBarButtons](https://raw.githubusercontent.com/Braveras/First/master/gradle/Readme-images/actionBar_buttons.png)
 
 
-https://img.shields.io/amo/rating/first?color=purple&label=Rating&style=flat-square
+![Badge](https://img.shields.io/amo/rating/first?color=purple&label=Rating&style=flat-square)
