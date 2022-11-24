@@ -8,13 +8,16 @@
     tools:context=".LoginActivity"
     android:id="@+id/fondito">
 
-
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="1000dp"
+        android:layout_height="1000dp"
         android:scaleType="fitStart"
+        app:layout_constraintTop_toTopOf="@id/guiafuera2"
+        app:layout_constraintLeft_toLeftOf="@id/guiafuera1"
+        app:layout_constraintRight_toRightOf="@+id/guiafuera3"
+        app:layout_constraintBottom_toBottomOf="@+id/guiafuera4"
         android:id="@+id/girl" />
-    
+
     <ImageView
         android:id="@+id/tree"
         android:layout_width="100dp"
@@ -35,9 +38,7 @@
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintStart_toStartOf="@id/guideline1"
         app:layout_constraintTop_toBottomOf="@id/tree"
-        app:startIconDrawable="@android:drawable/ic_btn_speak_now"
-
-        >
+        app:startIconDrawable="@android:drawable/ic_btn_speak_now">
 
         <EditText
             android:layout_width="match_parent"
@@ -92,17 +93,17 @@
 
     </Button>
 
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/opensign"
-    android:onClick="openSignup"
-    app:layout_constraintTop_toBottomOf="@id/login"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    android:text="Have you got an account? Sign up here">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/opensign"
+        android:onClick="openSignup"
+        app:layout_constraintTop_toBottomOf="@id/login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Have you got an account? Sign up here">
 
-</TextView>
+    </TextView>
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline1"
         android:layout_width="wrap_content"
@@ -117,5 +118,32 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.80" />
 
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="-0.5"
+        android:id="@+id/guiafuera1"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="-0.5"
+        android:id="@+id/guiafuera2"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="1.5"
+        android:id="@+id/guiafuera3"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="1.5"
+        android:id="@+id/guiafuera4"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
