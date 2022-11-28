@@ -22,5 +22,30 @@ With buttons too =)
 
 ![ActionBarButtons](https://raw.githubusercontent.com/Braveras/First/master/gradle/Readme-images/actionBar_buttons.png)
 
+# Links to some pieces of the code
+
+- Animations
+  * [Fade in](https://github.com/Braveras/First/blob/master/app/src/main/res/anim/fadein.xml)
+  * [Fade out](https://github.com/Braveras/First/blob/master/app/src/main/res/anim/fadeout.xml)
+  * [Rotation](https://github.com/Braveras/First/blob/master/app/src/main/res/anim/rotation.xml)
+  * [Slide down](https://github.com/Braveras/First/blob/master/app/src/main/res/anim/slide_down.xml)
+  * [Smooth float](https://github.com/Braveras/First/blob/master/app/src/main/res/anim/smooth_float.xml)
+  * [Zoom in](https://github.com/Braveras/First/blob/master/app/src/main/res/anim/zoomin.xml)
+
+- XML
+  * [Splash](https://github.com/Braveras/First/blob/master/app/src/main/res/layout/activity_splash.xml)
+  * [Login Activity](https://github.com/Braveras/First/blob/master/app/src/main/res/layout/activity_login.xml)
+  * [Login Activity (land)](https://github.com/Braveras/First/blob/master/app/src/main/res/layout-land/activity_login.xml)
+  * [SignUp Activity](https://github.com/Braveras/First/blob/master/app/src/main/res/layout/activity_signup.xml)
+  * [Main Activity](https://github.com/Braveras/First/blob/master/app/src/main/res/layout/activity_main.xml)
+
+- Java
+  * [Splash](https://github.com/Braveras/First/blob/master/app/src/main/java/com/example/fundamentals/Splash.java)
+  * [Login Activity](https://github.com/Braveras/First/blob/master/app/src/main/java/com/example/fundamentals/LoginActivity.java)
+  * [SignUp Activity](https://github.com/Braveras/First/blob/master/app/src/main/java/com/example/fundamentals/SignupActivity.java)
+  * [Main Activity](https://github.com/Braveras/First/blob/master/app/src/main/java/com/example/fundamentals/MainActivity.java)
+  
+- Styles
+  * [Button Styles](https://github.com/Braveras/First/blob/master/app/src/main/res/values/styles.xml)
 
 ![Badge](https://img.shields.io/amo/rating/first?color=purple&label=Rating&style=flat-square)
