@@ -18,7 +18,7 @@
 
 ![ActionBar](https://raw.githubusercontent.com/Braveras/First/master/gradle/Readme-images/actionBar.png)
 
-With buttons too =)
+> With buttons too `🌝`
 
 ![ActionBarButtons](https://raw.githubusercontent.com/Braveras/First/master/gradle/Readme-images/actionBar_buttons.png)
 
