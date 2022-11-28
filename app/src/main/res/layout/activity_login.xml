@@ -101,7 +101,8 @@
         app:layout_constraintTop_toBottomOf="@id/login"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="Have you got an account? Sign up here">
+        android:text="Have you got an account? Sign up here"
+        android:textStyle="bold">
 
     </TextView>
     <androidx.constraintlayout.widget.Guideline
