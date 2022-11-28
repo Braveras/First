@@ -2,9 +2,17 @@
 
 ![82cd55d62e7a0cfcbf7a3feaadaf2b16 (online-video-cutter com)](https://user-images.githubusercontent.com/36737950/203818458-09b51c61-9d4f-46ee-8381-61cae3bf5edb.gif)
 
-# This is my LoginActivity
+# This is my Login activity
 
 ![59b1dee25f562705a1882ff7e4e0e65e (1)](https://user-images.githubusercontent.com/36737950/203818426-ab581b7b-d3f3-4cae-a863-ad35538cbeba.gif)
+
+# This is my SignUp activity
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/36737950/204374227-a1ceba45-2d1a-438f-9545-b82a5d95304f.gif)
+
+# This is my Main activity
+
+![MainActivity](https://i.gyazo.com/c7575c8f599847dad5d8302ab2999e47.png)
 
 # This is my ActionBar
 
