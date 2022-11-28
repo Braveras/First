@@ -15,7 +15,7 @@
         android:duration="4000"
         android:startOffset="0"
         android:repeatCount="infinite"
-        android:repeatMode="reverse"></translate>
+        android:repeatMode="reverse" />
 
     <translate
         android:interpolator="@android:anim/linear_interpolator"
@@ -24,7 +24,7 @@
         android:duration="4000"
         android:startOffset="500"
         android:repeatCount="infinite"
-        android:repeatMode="reverse"></translate>
+        android:repeatMode="reverse" />
 
 </set>
 
