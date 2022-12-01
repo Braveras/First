@@ -22,6 +22,12 @@
 
 ![ActionBarButtons](https://raw.githubusercontent.com/Braveras/First/master/gradle/Readme-images/actionBar_buttons.png)
 
+# My Alert Dialog Box
+
+I added a little single choice list to it, which you can check under [this commit](https://github.com/Braveras/First/commit/8c41e167877b9e10afc04ad122b69b26abd9ddd2#diff-93e58fa1d1ecc3efea77f13aa9027ae943d07b8a8c68f3804c07d16fc934fb18) (You can also appreciate i'm using night theme in this picture)
+
+![dialogbox](https://user-images.githubusercontent.com/36737950/205013158-af1a7164-2947-40c5-908c-2053893a4507.PNG)
+
 # Links to some pieces of the code
 
 - Animations
