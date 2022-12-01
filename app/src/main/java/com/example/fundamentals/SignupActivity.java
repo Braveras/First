@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -34,6 +36,14 @@ public class SignupActivity extends AppCompatActivity {
                 .transition(DrawableTransitionOptions.withCrossFade(100))
                 .centerCrop()
                 .into(mFondo);
+
+        Animation slide_down = AnimationUtils.loadAnimation(this, R.anim.slide_down);
+
+        edituser.startAnimation(slide_down);
+        editemail.startAnimation(slide_down);
+        editpassword.startAnimation(slide_down);
+        editpassword.startAnimation(slide_down);
+        editpassword2.startAnimation(slide_down);
 
         cancel.setOnClickListener(new View.OnClickListener() {
             @Override

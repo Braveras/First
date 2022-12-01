@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="90dp"
-        android:text="SIGN UP"
+        android:text="@string/sign_up"
         android:textStyle="italic"
         android:shadowColor="@color/purple_700"
         android:shadowDx="3"
@@ -46,7 +46,7 @@
             android:id="@+id/edituser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Username"
+            android:hint="@string/username"
             android:imeOptions="actionGo"
             android:inputType="text"/>
 
@@ -67,7 +67,7 @@
             android:id="@+id/editemail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email"
+            android:hint="@string/email"
             android:imeOptions="actionGo"
             android:inputType="textEmailAddress"/>
 
@@ -89,7 +89,7 @@
             android:id="@+id/editpassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password"
+            android:hint="@string/password"
             android:imeOptions="actionGo"
             android:inputType="textPassword"/>
 
@@ -111,7 +111,7 @@
             android:id="@+id/editpassword2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Confirm password"
+            android:hint="@string/confirm_password"
             android:imeOptions="actionGo"
             android:inputType="textPassword"/>
 
@@ -122,7 +122,7 @@
         style="@style/login_button"
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/lime_100"
-        android:text="LOGIN"
+        android:text="@string/sign_up"
         app:layout_constraintEnd_toEndOf="@id/guideL2"
         app:layout_constraintStart_toStartOf="@id/guideL"
         app:layout_constraintTop_toBottomOf="@id/tilpassword2" />
@@ -133,7 +133,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/teal_700"
-        android:text="CLEAR"
+        android:text="@string/clear"
         app:layout_constraintEnd_toEndOf="@id/guideR"
         app:layout_constraintStart_toStartOf="@id/guideR2"
         app:layout_constraintTop_toTopOf="@id/login" />

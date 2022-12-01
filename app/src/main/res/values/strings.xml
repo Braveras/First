@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">Fundamentals</string>
+    <string name="app_name" translatable="false">Fundamentals</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="clear">CLEAR</string>
+
+    <string-array name="lista">
+
+        <item>1 - Horrendous</item>
+        <item>2 - Catastrophic</item>
+        <item>3 - Not bad</item>
+        <item>4 - Meh</item>
+        <item>5 - So, so...</item>
+        <item>6 - Good</item>
+        <item>7 - Yay!</item>
+        <item>8 - Astonishing</item>
+        <item>9 - Marvelous</item>
+        <item>10 - Purrfect</item>
+
+    </string-array>
+
 </resources>

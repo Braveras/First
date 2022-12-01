@@ -3,7 +3,9 @@ package com.example.fundamentals;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+import androidx.appcompat.app.AlertDialog;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.ContextMenu;
@@ -14,7 +16,10 @@ import android.webkit.WebView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.snackbar.Snackbar;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,6 +38,52 @@ public class MainActivity extends AppCompatActivity {
 
         swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipey);
         swipeLayout.setOnRefreshListener(mOnRefreshListener);
+    }
+
+    public void showAlertDialogButtonClicked(MainActivity mainActivity) {
+
+        MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(this);
+        String[] singleChoiceItems = getResources().getStringArray(R.array.lista);
+        int itemSelected = 0;
+
+        builder.setTitle("How much did you like this picture?");
+        //builder.setMessage("Choose something");
+        builder.setIcon(R.drawable.pepito);
+        builder.setCancelable(false);
+        builder.setSingleChoiceItems(singleChoiceItems, itemSelected, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int selectedIndex) {
+
+                    }
+                });
+
+        builder.setPositiveButton("Signup", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Intent intent = new Intent(MainActivity.this, SignupActivity.class);
+                startActivity(intent);
+                dialog.dismiss();
+            }
+        });
+
+        builder.setNegativeButton("Nanay", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Toast toast0 = Toast.makeText(MainActivity.this, "Hello i do nothing", Toast.LENGTH_LONG);
+                toast0.show();
+            }
+        });
+
+        builder.setNeutralButton("Exit", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                System.exit(0);
+                dialog.dismiss();
+            }
+        });
+
+        AlertDialog dialog = builder.create();
+        dialog.show();
     }
 
     protected SwipeRefreshLayout.OnRefreshListener
@@ -99,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.item1) {
-//            showAlertDialogButtonClicked(Main.this);
+            showAlertDialogButtonClicked(MainActivity.this);
             Toast toast = Toast.makeText(this, "Infecting", Toast.LENGTH_LONG);
             toast.show();
         }
