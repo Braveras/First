@@ -69,8 +69,9 @@ public class MainActivity extends AppCompatActivity {
         builder.setNegativeButton("Nanay", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                Toast toast0 = Toast.makeText(MainActivity.this, "Hello i do nothing", Toast.LENGTH_LONG);
+                Toast toast0 = Toast.makeText(MainActivity.this, "Hello i do switch you to bab activity", Toast.LENGTH_LONG);
                 toast0.show();
+                openBab();
             }
         });
 
@@ -174,5 +175,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void openBab() {
+        Intent intent = new Intent(MainActivity.this, MainBab.class);
+        startActivity(intent);
     }
 }
